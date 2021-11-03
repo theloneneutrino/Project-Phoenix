@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\entity.h" />
+    <ClInclude Include="src\player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\entity.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\imageFile.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,18 +150,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Downloads\Project-Phoenix\entity.cpp" />
-    <ClCompile Include="..\..\..\Downloads\Project-Phoenix\main.cpp" />
-    <ClCompile Include="..\..\..\Downloads\Project-Phoenix\player.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Downloads\Project-Phoenix\entity.h" />
-    <ClInclude Include="..\..\..\Downloads\Project-Phoenix\player.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\..\Downloads\Project-Phoenix\imageFile.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
