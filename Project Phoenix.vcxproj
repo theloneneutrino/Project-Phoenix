@@ -19,16 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="entity.h" />
-    <ClInclude Include="player.h" />
+    <ClInclude Include="src/entity.h" />
+    <ClInclude Include="src/player.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="entity.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="player.cpp" />
+    <ClCompile Include="src/entity.cpp" />
+    <ClCompile Include="src/main.cpp" />
+    <ClCompile Include="src/player.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="imageFile.txt" />
+    <Text Include="src/imageFile.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
