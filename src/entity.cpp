@@ -7,5 +7,8 @@ Entity::Entity()
 
 void Entity::takeDamage(int damageAmount)
 {
+  using std::cout;
+  using std::endl;
   Health -= damageAmount;
+  cout << EntityName << " has taken " << damageAmount << "damage" << endl;
 }
