@@ -6,6 +6,5 @@ protected:
   Entity();
   int Health, Mana;
   string EntityName;
-  
   void takeDamage(int);
 };
