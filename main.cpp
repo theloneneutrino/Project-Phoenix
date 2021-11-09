@@ -9,9 +9,6 @@ ifstream imageFile;
 void printTitle();
 
 int main() {
- string input;
- string Yes, yes; 
- string No, no;
   Player player1;
   printTitle();
   
