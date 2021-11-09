@@ -1,3 +1,4 @@
+Compiler-Setup
 #include <iostream>
 using std::string;
 class Entity
@@ -5,7 +6,11 @@ class Entity
 protected:
   Entity();
   int Health, Mana;
+
   string EntityName;
   
+
+
+
   void takeDamage(int);
 };
